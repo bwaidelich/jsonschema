@@ -27,7 +27,7 @@
         "roave/security-advisories": "dev-latest",
         "phpstan/phpstan": "^2",
         "friendsofphp/php-cs-fixer": "^3",
-        "phpunit/phpunit": "^12"
+        "phpunit/phpunit": "^10 || ^11 || ^12"
     },
     "autoload": {
         "psr-4": {
