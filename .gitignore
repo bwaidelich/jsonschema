@@ -1,0 +1,5 @@
+../types-jsonschema/.idea
+.php-cs-fixer.cache
+composer.lock
+phpstan.neon
+vendor
