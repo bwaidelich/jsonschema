@@ -73,6 +73,10 @@ JSON;
 assert(json_encode($schema, JSON_PRETTY_PRINT) === $expected);
 ```
 
+## JSON Schema generator
+
+See [wwwision/types-jsonschema](https://github.com/bwaidelich/types-jsonschema) package for a JSON Schema generator that can generate JSON Schemas from PHP classes.
+
 ## Contribution
 
 Contributions in the form of [issues](https://github.com/bwaidelich/jsonschema/issues) or [pull requests](https://github.com/bwaidelich/jsonschema/pulls) are highly appreciated

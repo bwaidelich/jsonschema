@@ -29,6 +29,9 @@
         "friendsofphp/php-cs-fixer": "^3",
         "phpunit/phpunit": "^10 || ^11 || ^12"
     },
+    "suggest": {
+        "wwwision/types-jsonschema": "For generating JSON schema files from PHP classes"
+    },
     "autoload": {
         "psr-4": {
             "Wwwision\\JsonSchema\\": "src/"
