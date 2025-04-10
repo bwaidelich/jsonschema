@@ -1,6 +1,6 @@
-# PHP Classes to represent JSON Schemas
+# JSON Schema
 
-[JSON Schema](https://json-schema.org/)
+PHP Classes to represent JSON Schemas, see [JSON Schema](https://json-schema.org/)
 
 ## Usage
 
