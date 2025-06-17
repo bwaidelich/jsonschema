@@ -43,10 +43,10 @@ final class ObjectProperties implements IteratorAggregate, JsonSerializable
     }
 
     /**
-     * @return array<string, Schema>
+     * @return object{string: Schema}
      */
-    public function jsonSerialize(): array
+    public function jsonSerialize(): object
     {
-        return $this->properties;
+        return (object) $this->properties; // @phpstan-ignore return.type
     }
 }
