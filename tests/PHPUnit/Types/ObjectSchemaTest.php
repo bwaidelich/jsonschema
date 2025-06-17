@@ -92,4 +92,10 @@ final class ObjectSchemaTest extends TestCase
         self::assertJsonStringEqualsJsonString('{"type":"object","description":"Some changed description"}', json_encode($schema));
     }
 
+    public function test_noProperties(): void
+    {
+        $schema = new ObjectSchema(properties: ObjectProperties::create());
+        self::assertJsonStringEqualsJsonString('{"type":"object","properties":{}}', json_encode($schema));
+    }
+
 }
